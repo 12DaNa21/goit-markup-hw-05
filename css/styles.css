@@ -428,14 +428,16 @@ section {
   background-color: #31d0aa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-form-container {
+  display: flex;
+}
 .foter-form-menu {
   display: flex;
 }
-
-.footer-form-container {
-  display: flex;
+.footer-label-form {
   gap: 24px;
 }
+
 .input-size {
   width: 264px;
   height: 40px;
@@ -450,21 +452,22 @@ section {
   display: flex;
 }
 .footer-button {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
+
   color: #ffffff;
   background-color: #4d5ae5;
   min-width: 165px;
   height: 40px;
   border: none;
   border-radius: 4px;
-
+  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-button:hover,
@@ -473,9 +476,7 @@ section {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list-link-telegram {
-  width: 24px;
-  height: 24px;
+.social-list-icon-telegram {
   margin-left: 16px;
 }
 /* ============= /FOOTER SECTION /================== */
