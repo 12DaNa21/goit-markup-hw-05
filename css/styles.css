@@ -628,7 +628,9 @@ section {
 .review-form-field-wrapper {
   margin-bottom: 8px;
 }
-
+.review-form-field-wrapper .comment {
+  margin-bottom: 16px;
+}
 .review-form-field-label {
   display: block;
   font-size: 12px;
@@ -637,7 +639,6 @@ section {
   letter-spacing: 0.04em;
   margin-bottom: 4px;
   color: #8e8f99;
-  margin-bottom: 16px;
 }
 
 .review-form-input-wrapper {
